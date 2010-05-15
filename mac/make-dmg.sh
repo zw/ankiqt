@@ -13,7 +13,7 @@ then
     exit 1
 fi
 
-if [ -d "/Volues/Anki" ]
+if [ -d "/Volumes/Anki" ]
 then
     echo "You already have one Anki mounted, unmount it first!"
     exit 1
