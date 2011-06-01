@@ -14,7 +14,7 @@ from ankiqt import ui
 import ankiqt
 from ankiqt.ui.utils import mungeQA, saveGeom, restoreGeom
 from anki.hooks import addHook, removeHook, runHook, runFilter
-from sqlalchemy.exceptions import InvalidRequestError
+from sqlalchemy.exc import InvalidRequestError
 
 clozeColour = "#0000ff"
 
